@@ -1,4 +1,3 @@
-
 html {
   box-sizing: border-box;
   border: red;
@@ -83,7 +82,7 @@ h1 {
   right: 650px;
 }
 
-.monkey1{
+.monkey1 {
   position: absolute;
   top: 350px;
   left: 260px;
@@ -92,7 +91,7 @@ h1 {
   cursor: pointer; 
 }
 
-.monkey2{
+.monkey2 {
   position: absolute;
   top: 350px;
   right: 410px;
@@ -100,7 +99,7 @@ h1 {
   height: 100px; 
   cursor: pointer; 
 }
-.monkey3{
+.monkey3 {
   position: absolute;
   top: 450px;
   left: 435px;
@@ -108,7 +107,7 @@ h1 {
   height: 100px;
   cursor: pointer; 
 }
-.monkey4{
+.monkey4 {
   position: absolute;
   top: 450px;
   left: 755px;
@@ -116,7 +115,7 @@ h1 {
   height: 100px;  
   cursor: pointer; 
 }
-.monkey5{
+.monkey5 {
   position: absolute;
   top: 550px;
   right: 310px;
@@ -124,7 +123,7 @@ h1 {
   height: 100px;  
   cursor: pointer; 
 }
-.monkey6{
+.monkey6 {
   position: absolute;
   top: 550px;
   left: 610px;

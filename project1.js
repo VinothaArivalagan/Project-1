@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let timeLeft = 60;
     let gameStarted = false;
     let timer;
+    let timerUpdate;
 
     function startGame() {
         gameStarted = true;
@@ -38,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 1000);
 
 
-        setInterval(function () {
+        timerUpdate = setInterval(function () {
             timeLeft--;
             updateTimer();
             if (timeLeft === 0) {
@@ -50,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function endGame() {
         gameStarted = false;
         clearInterval(timer);
+        clearInterval(timerUpdate); 
         endButton.disabled = true;
         startButton.disabled = false;
         alert('Game Over! Your final score is ' + score);
